@@ -1,0 +1,32 @@
+.formContainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+.myForm{
+    width:300px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap:25px;
+}
+#player1Name , #player2Name{
+    width: 90%;
+    padding: 5px;
+
+}
+#logInBtn{
+    border: none;
+    background-color: transparent;
+    font-size: 1rem;
+    font-weight: 800;
+    background-color: rgb(85, 85, 237);
+    color:#fff;
+    padding: 8px;
+    border-radius: 1rem;
+    cursor: pointer;
+}

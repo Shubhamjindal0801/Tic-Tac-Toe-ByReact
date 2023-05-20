@@ -1,0 +1,70 @@
+.grid{
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-template-rows: repeat(3, 100px);
+    grid-gap:10px;
+    margin-top: 2rem;
+    transform: translateY(30%)
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+}
+.icons{
+    font-size: xx-large;
+    color:#000;
+}
+.pen{
+    color:white;
+    font-size: small;
+}
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+#chance{
+    text-align: center;
+    color:tomato;
+    border:2px solid red;
+    border-radius: 1rem;
+    background-color: #ccc;
+    font-weight:bold;
+}
+
+.winMsg h1{
+    text-align: center;
+    color:tomato;
+    border:2px solid red;
+    border-radius: 1rem;
+    background-color: #ccc;
+    font-weight:bold;
+}
+.winMsg{
+    text-align: center;
+}
+.playAgain{
+    color:darkcyan;
+    font-weight: bold;
+    font-size: 1rem;
+    background-color: transparent;
+    border: none;
+    border:3px solid green;
+    border-radius: 1rem;
+    padding: 8px;
+    cursor: pointer;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.playAgain:hover{
+    transform: scale(1.2);
+    background-color: aquamarine;
+    color:black;
+    border:3px solid black;
+}
